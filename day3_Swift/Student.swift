@@ -34,9 +34,11 @@ struct Student
      }*/
     mutating func calculateTotal()
     {
-        for (_,v) in marks
+        for i in marks
         {
-            self.total=self.total+Float(v)
+            
+            total = total + Float(i.value)
+           
         }
     }
     mutating func calculatepercentage()
