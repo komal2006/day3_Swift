@@ -14,7 +14,10 @@ class Faculty
     var lastName: String?
     var basicSalary: Float?
     var bonus: Float?
-    var totalSalary: Float?
+    var totalSalary: Float
+    {
+        return self.basicSalary! + self.bonus!
+    }
     
     convenience init( facultyID : Int, firstName: String, lastName: String, basicSalary: Float, bonus: Float)
     {
@@ -44,11 +47,11 @@ class Faculty
         print("Facilty init called")
     }
     
-    func total_Salary()
+   /* func total_Salary()
     {
         self.totalSalary = self.basicSalary! + self.bonus!
         
-    }
+    }*/
     
     
     func printData()

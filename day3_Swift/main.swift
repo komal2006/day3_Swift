@@ -16,13 +16,14 @@ f1.firstName = "Komaldeep"
 f1.lastName = "Kaur"
 f1.basicSalary = 15000
 f1.bonus = 500
-f1.total_Salary()
+//f1.total_Salary()
 //f1.setValues()
 f1.printData()
 print("------------")
 
+
 var f2 = Faculty(facultyID: 1, firstName: "Test", lastName: "Name", basicSalary: 15000, bonus: 500)
-f2.total_Salary()
+//f2.total_Salary()
 
 //var f3 = Faculty(facultyID: 2, firstName: "Subject", lastName: "Name", basicSalary: 5000, bonus: 400)
 //f3.total_Salary()
